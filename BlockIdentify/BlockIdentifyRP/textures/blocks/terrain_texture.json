@@ -1,0 +1,37 @@
+{
+    "resource_pack_name": "BlockIdentify",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "monster_egg": {
+            "textures": [
+                 "textures/blocks/m_cobblestone",
+                "textures/blocks/m_stonebrick",
+                "textures/blocks/m_stonebrick_mossy",
+                "textures/blocks/m_stonebrick_cracked",
+                "textures/blocks/m_stonebrick_carved",
+                "textures/blocks/m_stone"
+            ]
+        },
+        "suspicious_sand": {
+            "textures": [
+              "textures/blocks/suspicious_sand_0",
+              "textures/blocks/suspicious_sand_1",
+              "textures/blocks/suspicious_sand_2",
+              "textures/blocks/suspicious_sand_3"
+            ]
+        },
+        "suspicious_gravel": {
+            "textures": [
+              "textures/blocks/suspicious_gravel_0",
+              "textures/blocks/suspicious_gravel_1",
+              "textures/blocks/suspicious_gravel_2",
+              "textures/blocks/suspicious_gravel_3"
+            ]
+        },
+        "powder_snow": {
+            "textures": "textures/blocks/powder_snow"
+        }
+    }
+}
