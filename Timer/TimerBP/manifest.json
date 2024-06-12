@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "6b6cfaeb-ec33-47f7-bd3c-9a67aa9e40a2",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 40 ]
+    },
+    "modules": [
+        {
+            "description": "scriptAPI",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "0f06a7a6-c05f-4fc8-b8cd-6f722c36937e",
+            "version": [ 1, 0, 0 ],
+            "entry": "scripts/main.js"
+        },
+        {
+            "description": "behavior pack",
+            "type": "data",
+            "uuid": "55ffa1b7-5c68-4d67-8a29-8e3f71017828",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "authors": [ "mitarashiusagi" ]
+    }
+}
